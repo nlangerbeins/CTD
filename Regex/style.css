@@ -1,0 +1,47 @@
+
+body {
+    color: #000;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+  
+main {
+    width: 90%;
+    max-width: 1080px;
+    padding: 20px 0 0;
+    margin: 30px;
+}
+
+
+input {
+    padding: 15px 10px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid grey;
+    outline: none;
+}
+
+p {
+  margin: 10px 0 30px;
+}
+
+/* validation styles */
+
+input.valid {
+    border-color: #36cc36;
+}
+
+input.invalid {
+    border-color: orange;
+}
+
+input + p {
+    color: orange;
+    opacity: 0;
+    font-size: 12px;
+}
+
+input.invalid + p {
+    opacity: 1;
+}
