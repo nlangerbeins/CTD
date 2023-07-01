@@ -86,3 +86,4 @@ function calculateAreaRect(width, height) {
   console.log(calculateVolumePrism(4.5, 12.5, 17.4))
   console.log(calculateAreaCircle(7.2))
   console.log(calculateVolumeSphere(7.2))
+
